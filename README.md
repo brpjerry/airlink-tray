@@ -4,6 +4,8 @@ An offline Windows tray app (and CLI) to control the **FiiO Air Link** USB Bluet
 transmitter — codecs, codec sub-modes, indicator brightness, and Bluetooth pairing —
 without the official FiiO Control app or its web interface.
 
+![AirLink Tray menu](docs/screenshot.png)
+
 > **Unofficial.** The control protocol was reverse-engineered by observing the FiiO
 > Control web app's WebHID traffic. It is not endorsed by FiiO. Use at your own risk.
 > Firmware updates are intentionally **not** implemented (too risky over an
