@@ -1,0 +1,22 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+
+# Claude Code local settings (per-user, not project code)
+.claude/
+
+# Reverse-engineering captures (contain real device MACs/names) — kept local only
+*.log
+crash_log.txt
+
+# OS cruft
+Thumbs.db
+desktop.ini
