@@ -73,6 +73,16 @@ app is subject to them too) — see the protocol doc for detail:
 - An in-progress connection attempt can't be aborted in software; unplug/replug to reset.
 - Multipoint (two sinks) forces SBC, by design.
 
+## Releases
+
+Pushing a version tag builds a self-contained single-file `AirLinkTray.exe` (no .NET
+install needed) and attaches it to a GitHub Release via Actions:
+
+```powershell
+git tag v1.0.0
+git push origin v1.0.0
+```
+
 ## License
 
 [MIT](LICENSE)
